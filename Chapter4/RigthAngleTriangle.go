@@ -15,9 +15,9 @@ func main() {
 		return
 	}
 
-	for i := 1; i <= baseLength; i++ {
-		for j := 1; j <= i; j++ {
-			fmt.Print("* ")
+	for index := 1; index <= baseLength; index++ {
+		for count := 1; count <= index; count++ {
+			fmt.Print("# ")
 		}
 		fmt.Println()
 	}

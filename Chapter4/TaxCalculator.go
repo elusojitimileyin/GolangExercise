@@ -23,11 +23,7 @@ func main() {
 
 		var name string
 		fmt.Println("Enter citizen names: ")
-		_, err = fmt.Scanln(&name)
-		if err != nil {
-			fmt.Println("Invalid input. Please enter a valid name.")
-			continue
-		}
+		fmt.Scanln(&name)
 
 		taxRate = earning * (15.00 / 100.00)
 		count++

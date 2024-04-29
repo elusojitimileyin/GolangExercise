@@ -15,7 +15,8 @@ func main() {
 		return
 	}
 
-	min, max := math.MaxInt64, math.MinInt64
+	min := math.MaxInt64
+	max := math.MinInt64
 	var sum int
 
 	for index := 1; index <= count; index++ {
