@@ -91,8 +91,8 @@ func getItemList(input *bufio.Scanner) {
 }
 
 func calculateTotal() {
-	for i := 0; i < len(itemList); i++ {
-		totalList = append(totalList, float64(quantityList[i])*priceList[i])
+	for index := 0; index < len(itemList); index++ {
+		totalList = append(totalList, float64(quantityList[index])*priceList[index])
 	}
 }
 
